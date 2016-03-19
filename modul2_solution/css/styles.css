@@ -6,8 +6,6 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
 }
-section{
-}
 
 .mycontainer {
     width: 100%;
@@ -56,6 +54,12 @@ p {
     
 }
 
+footer {
+    text-align: center;    
+}
+
+/******** Media Queries *************/
+/** big screens **/
 @media (min-width: 992px){
     .box1, .box2, .box3 {
     width: 33%;
@@ -64,6 +68,7 @@ p {
     }
 }
 
+/** Tablets - medium size screens **/
 @media (min-width: 768px) and (max-width: 991px){
     .box1 {
         width: 49%;
@@ -86,7 +91,7 @@ p {
         width: 99%;
     }
 }
-
+/** cell phones - small screens **/
 @media (max-width: 767px){
     section {
         margin-bottom: 5px;
